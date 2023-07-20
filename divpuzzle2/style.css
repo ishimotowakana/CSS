@@ -61,7 +61,7 @@ background: #ff9c6b;
   background: #8c2727;
 }
 
-.yellow--box {
+.yellow--box {w
 width: 100%;
 height: 100px;
 background: #fff700;
@@ -69,6 +69,6 @@ background: #fff700;
 
 .clearfix:after {
 	content: "";
-	display: flex;
+	display: block;
 	clear: both;
 }
