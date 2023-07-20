@@ -49,7 +49,7 @@ background: #cc00db;
 }
 
 .orange-box {
-float: right;
+display: flex;
 width: 100px;
 height: 150px;
 background: #ff9c6b;
@@ -69,6 +69,6 @@ background: #fff700;
 
 .clearfix:after {
 	content: "";
-	display: block;
+	display: flex;
 	clear: both;
 }
