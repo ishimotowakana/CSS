@@ -15,14 +15,21 @@ height:100px;
 background: #ff0000;
 }
 
+
 .white--box {
-  color: white;
+  background: #ffffff;
+  width: 180px;
+  height: 60px;
+  float: left;
+  position: relative;
+  top: 20px;
+  left: 200px;
 }
+
 
 .item--box {
   display: flex;
-  float: right;
-  color: white;
+  float: left;
 }
 
 .item {
@@ -30,7 +37,6 @@ background: #ff0000;
   height: 40px;
   background: #a9004b;
   margin: 10px;
-  padding: 10px;
 }
 
 
@@ -50,6 +56,9 @@ background: #8c2727;
 
 .orange--box {
   float: left;
+  position: relative;
+  top: 40px;
+  left: 40px;
 }
 
 .orange {
@@ -57,9 +66,7 @@ background: #8c2727;
   height: 40px;
   background: #ff863f;
   margin: 10px;
-  padding: 10px;
-  border-width: 5px;
-  border-color: #ffffff;
+  border: 5px #ffffff;
 }
 
 .yellow--box {
