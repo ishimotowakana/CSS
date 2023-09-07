@@ -16,14 +16,18 @@ background: #ff0000;
 }
 
 
-.white--box {
-  background: #ffffff;
-  width: 180px;
-  height: 60px;
-  float: left;
+.content {
   position: relative;
   top: 20px;
-  left: 200px;
+  left: 220px;
+}
+
+.white--box {
+  background: #ffffff;
+  width: 140px;
+  height: 40px;
+  float: left;
+  padding: 10px;
 }
 
 
@@ -36,9 +40,12 @@ background: #ff0000;
   width: 40px;
   height: 40px;
   background: #a9004b;
-  margin: 10px;
+  margin-right: 10px;
 }
 
+.item:last-child {
+  margin-right: 0px;
+}
 
 .green--box {
   float:left;
@@ -65,8 +72,9 @@ background: #8c2727;
   width: 140px;
   height: 40px;
   background: #ff863f;
-  margin: 10px;
+  margin-bottom: 10px;
   border: 5px #ffffff;
+  border-style: solid;
 }
 
 .yellow--box {
