@@ -11,6 +11,11 @@ background: #ff0000;
 position:relative
 }
 
+.clearfix {
+  content: "";
+	display: block;
+	clear: both;
+}
 
 .white--box {
   background: #ffffff;
@@ -18,9 +23,6 @@ position:relative
   top: 20px;
   left: 220px;
   position: absolute;
-  content: "";
-	display: block;
-	clear: both;
 }
 
 .item--box {
@@ -78,8 +80,5 @@ position:relative
 width: 400px;
 height: 100px;
 background: #ffd000;
-content: "";
-display: block;
-clear: both;
 }
 
