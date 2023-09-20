@@ -2,6 +2,7 @@
 
 .wrapper {
 	width:400px;
+  height: 450px;
 }
 
 .red--box {
@@ -23,10 +24,6 @@ position:relative
   top: 20px;
   left: 220px;
   position: absolute;
-}
-
-.item--box {
-  float: left;
 }
 
 .item {
@@ -77,6 +74,7 @@ position:relative
 
 
 .yellow--box {
+clear: both;
 width: 400px;
 height: 100px;
 background: #ffd000;
