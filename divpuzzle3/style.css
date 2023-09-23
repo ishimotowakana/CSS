@@ -3,6 +3,7 @@
 .wrapper {
 	width:400px;
   height: 450px;
+  margin: 0 auto;
 }
 
 .red--box {
