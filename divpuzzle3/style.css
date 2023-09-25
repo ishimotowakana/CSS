@@ -2,7 +2,6 @@
 
 .wrapper {
 	width:400px;
-  height: 450px;
   margin: 0 auto;
 }
 
@@ -11,12 +10,6 @@ width:400px;
 height:100px;
 background: #ff0000;
 position:relative
-}
-
-.clearfix {
-  content: "";
-	display: block;
-	clear: both;
 }
 
 .white--box {
@@ -46,8 +39,17 @@ height: 250px;
 background: #00ff51;
 }
 
+.content {
+  float: left;
+  width: 250px;
+  height: 250px;
+}
+
+.content-top-left {
+  float: left;
+}
+
 .brown--box {
-  float:left;
 width: 250px;
 height: 250px;
 background: #8c2727;
@@ -75,9 +77,13 @@ position:relative
 
 
 .yellow--box {
-clear: both;
 width: 400px;
 height: 100px;
 background: #ffd000;
 }
 
+.clearfix {
+  content: "";
+	display: block;
+	clear: both;
+}
