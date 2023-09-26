@@ -45,7 +45,7 @@ background: #00ff51;
   height: 250px;
 }
 
-.content-top-left {
+.content-left {
   float: left;
 }
 
@@ -82,7 +82,7 @@ height: 100px;
 background: #ffd000;
 }
 
-.clearfix {
+.clearfix::after  {
   content: "";
 	display: block;
 	clear: both;
